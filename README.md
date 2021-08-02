@@ -26,26 +26,30 @@ Overall the drop in the 9th grade scores did not cause a significant change in t
 * How does replacing the ninth-grade scores affect the following: Math and reading scores by grade
    * It did not affect the other grades (10th through 12th) with the adjustment of the data, only affecting the 9th grade. It would only result in the 9th grade scores presenting as NaN and not use it during calculations within the full summaries.
 
-![Thomas High School: NaN]((Write-Up_Resources/D1_readNaN.png)
+![Thomas High School: NaN](Write-Up_Resources/D1_readNaN.png)
 
 ![Average Math Scores](Write-Up_Resources/D2_avg_math.png)
 ![Average Reading Scores](Write-Up_Resources/D2_avg_read.png)
 
 ### Scores by School Spending
 * How does replacing the ninth-grade scores affect the following: Scores by school spending
-
+   * It didn't affect the score spending ranges but it did so for the passing spending ranges. Omitting a whole grade in one school does affect how many *students* are to pass, as many students are basically notes as having no grade whatsoever.
+   
 ![Scores by Spending Summary](Write-Up_Resources/D2_spending_summ_df.png)
 ![Scores by Spending Ranges](Write-Up_Resources/D2_spending_ranges(formatted).png)
 
 ### Scores by School Size
 * How does replacing the ninth-grade scores affect the following: Scores by school size
-
+   * As with the school spending, it didn't affect the average scores by did affect the passing percentages in the same way as before.
+ 
 ![Scores by School Size Summary](Write-Up_Resources/D2_school_size_summ_df.png)
 ![Scores by School Size](Write-Up_Resources/D2_size_ranges(formatted).png)
 
 ### Scores by School Type
 * How does replacing the ninth-grade scores affect the following: Scores by school type
-
+   * This had a more noticable drop in the percentages across the whole board, as Thomas High School was a charter and thus affected the whole category negatively.
+ 
 ![Scores by School Type](Write-Up_Resources/D2_school_type(formatted).png)
 
 ## Summary
+All in all the scores of the 9th graders being dropped did affect the data though in a way that wasn't compensated for by adjusting the other schools data to exclude their 9th graders as well. It wasn't the most conclusive, nor consistent (in terms of having a scientific constant), in achieving the data.
