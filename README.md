@@ -3,14 +3,17 @@
 ## Overview of the School Data Results
 In this challenge assigned, the client, the school board, believe that an alteration to student's grades at Thomas High School was happening. The resulting academic dishonesty having put distrust in the data provided and they want to find out how much it has affected their overall data.
 
-   The school board has notified Maria and her supervisor that the students_complete.csv file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. Although the school board does not know the full extent of the academic dishonesty, they want to uphold state-testing standards and have turned to Maria for help. She has asked you to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. Once you’ve replaced the math and reading scores, Maria would like you to repeat the school district analysis that you did in this module and write up a report to describe how these changes affected the overall analysis.
+Overall the drop in the 9th grade scores did not cause a significant change in the results.
 
 ## Results of the School Data
 ### School Summary
 * How is the district summary affected?
+   * The average math score dropped whereas the average reading score stayed the same.
 * How is the school summary affected?
+   * The score did affect how the top 5 results came back, with Thomas High School receiving a large drop in ranking.
 * How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-
+   * 
+![District Summary](Write-Up_Resources/D1_dist_summ.png)
 ![School Summary](Write-Up_Resources/D2_per_school_summ_df.png)
 ![School Summary (Thomas High School 10th - 12th Grade Update)](Write-Up_Resources/D2_per_school_summ_df(THS_update.png)
 
