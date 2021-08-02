@@ -12,16 +12,21 @@ Overall the drop in the 9th grade scores did not cause a significant change in t
 * How is the school summary affected?
    * The score did affect how the top 5 results came back, with Thomas High School receiving a large drop in ranking.
 * How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-   * 
+   * Thomas High School may have dropped out the top 5 but it did not drop significantly to bottom 5 without its 9th grader scores.
+
 ![District Summary](Write-Up_Resources/D1_dist_summ.png)
 ![School Summary](Write-Up_Resources/D2_per_school_summ_df.png)
-![School Summary (Thomas High School 10th - 12th Grade Update)](Write-Up_Resources/D2_per_school_summ_df(THS_update.png)
+![School Summary (Thomas High School 10th - 12th Grade Update)](Write-Up_Resources/D2_per_school_summ_df(THS_update).png)
 
 ### High and Low Performing Schools
 ![Top 5](Write-Up_Resources/D2_top5.png)
 ![Bottom 5](Write-Up_Resources/D2_bottom5.png)
+
 ### Math and Reading Scores by Grade
 * How does replacing the ninth-grade scores affect the following: Math and reading scores by grade
+   * It did not affect the other grades (10th through 12th) with the adjustment of the data, only affecting the 9th grade. It would only result in the 9th grade scores presenting as NaN and not use it during calculations within the full summaries.
+
+![Thomas High School: NaN]((Write-Up_Resources/D1_readNaN.png)
 
 ![Average Math Scores](Write-Up_Resources/D2_avg_math.png)
 ![Average Reading Scores](Write-Up_Resources/D2_avg_read.png)
