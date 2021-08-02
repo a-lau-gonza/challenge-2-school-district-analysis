@@ -10,9 +10,9 @@ Overall the drop in the 9th grade scores did not cause a significant change in t
 * How is the district summary affected?
    * The average math score dropped whereas the average reading score stayed the same.
 * How is the school summary affected?
-   * The score did affect how the top 5 results came back, with Thomas High School receiving a large drop in ranking.
+   * The score did affect how the top 5 results came back, with Thomas High School receiving a large drop in ranking. 
 * How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-   * Thomas High School may have dropped out the top 5 but it did not drop significantly to bottom 5 without its 9th grader scores.
+   * Thomas High School may have dropped out the top 5 but it did not drop significantly to bottom 5 without its 9th grader scores. Having a whole grade dropped can prove to be significant in how a school can present in the data.
 
 ![District Summary](Write-Up_Resources/D1_dist_summ.png)
 ![School Summary](Write-Up_Resources/D2_per_school_summ_df.png)
